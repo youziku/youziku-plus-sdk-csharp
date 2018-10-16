@@ -16,8 +16,8 @@ SDK的返回值主要内容是@font-face语句，@font-face语句是CSS3中的�
 用户<a href="#user-content-4自定义路径生成模式">自定义字体存放路径</a>，当需要显示字体效果时，可以根据自己所定义的路径<a href="http://service.youziku.com/index.html#format" target="_blank" style="color: #ff7e00;">拼组出@font-face语句</a>，然后将语句输出到前端页面，即可使内容显示字体效果。
 
 # 二、环境
-1. <a href="https://github.com/youziku/youziku-sdk-csharp/raw/master/sdk下载/v3.5.zip">下载SDK</a>(兼容.NET Framework version 3.5及以上所有版本；) <br />
-2. <a href="https://github.com/youziku/youziku-sdk-csharp/raw/master/sdk下载/v4.5.zip">下载SDK</a>(兼容.NET Framework version 4.5及以上所有版本；增加对异步调用[使用async和await]的支持)
+1. <a href="https://github.com/youziku/youziku-plus-sdk-csharp/raw/master/sdk下载/v3.5.zip">下载SDK</a>(兼容.NET Framework version 3.5及以上所有版本；) <br />
+2. <a href="https://github.com/youziku/youziku-plus-sdk-csharp/raw/master/sdk下载/v4.5.zip">下载SDK</a>(兼容.NET Framework version 4.5及以上所有版本；增加对异步调用[使用async和await]的支持)
 
 # 三、引用
 ## 1.添加引用（Youziku.Service-Plus.SDK.dll）
@@ -25,7 +25,7 @@ SDK的返回值主要内容是@font-face语句，@font-face语句是CSS3中的�
 # 四、Sample
 ## 1.初始化YouzikuServicePlusClient实例,在全局配置一遍即可
 ```csharp 
-public static readonly IYouzikuServicePlusClient youzikuClient = new YouzikuServicePlusClient("xxxxxx");//apiKey
+public static readonly IYouzikuServicePlusClient YouzikuPlusClient = new YouzikuServicePlusClient("xxxxxx");//apiKey
 ```
 ## 2.调用接口
 ### 2.1.处理全部文本-所有格式
