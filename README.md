@@ -20,7 +20,7 @@ SDK的返回值主要内容是@font-face语句，@font-face语句是CSS3中的�
 2. <a href="https://github.com/youziku/youziku-plus-sdk-csharp/raw/master/sdk下载/youziku-plus-sdk-v4.5.zip">下载SDK</a>(兼容.NET Framework version 4.5及以上所有版本；增加对异步调用[使用async和await]的支持)
 
 # 三、引用
-## 1.添加引用（Youziku.Service-Plus.SDK.dll）
+## 1.添加引用
 
 # 四、Sample
 ## 1.初始化YouzikuServicePlusClient实例,在全局配置一遍即可
