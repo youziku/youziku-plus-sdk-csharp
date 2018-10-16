@@ -1,0 +1,9 @@
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\bin\Release\V35Test.Sample.exe
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\bin\Release\V35Test.Sample.pdb
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\bin\Release\Youziku.Service-Plus.SDK.v35.dll
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\bin\Release\Youziku.Service-Plus.SDK.v35.pdb
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\obj\Release\V35Test.Sample.csprojAssemblyReference.cache
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\obj\Release\V35Test.Sample.csproj.CoreCompileInputs.cache
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\obj\Release\V35Test.Sample.csproj.CopyComplete
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\obj\Release\V35Test.Sample.exe
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V35Test.Sample\obj\Release\V35Test.Sample.pdb

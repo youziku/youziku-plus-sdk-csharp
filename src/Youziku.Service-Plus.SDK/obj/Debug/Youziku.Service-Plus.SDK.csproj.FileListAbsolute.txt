@@ -1,0 +1,6 @@
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK\bin\Debug\Youziku.Service-Plus.SDK.dll
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK\bin\Debug\Youziku.Service-Plus.SDK.pdb
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK\obj\Debug\Youziku.Service-Plus.SDK.csprojAssemblyReference.cache
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK\obj\Debug\Youziku.Service-Plus.SDK.csproj.CoreCompileInputs.cache
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK\obj\Debug\Youziku.Service-Plus.SDK.dll
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK\obj\Debug\Youziku.Service-Plus.SDK.pdb

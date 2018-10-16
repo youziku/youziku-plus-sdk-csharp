@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1096790D-C20A-4C4C-A69F-3CA3F46C55CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v3.5", "v3.5", "{73D561CD-D584-4AED-96FC-EDBC4589CAF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v4.5", "v4.5", "{E571B377-1E79-41C0-83EA-6AC0E8DA339C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youziku.Service-Plus.SDK.v35", "Youziku.Service-Plus.SDK.v35\Youziku.Service-Plus.SDK.v35.csproj", "{A383C3BA-9D02-4BF5-904C-1BA5C07A6225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youziku.Service-Plus.SDK", "Youziku.Service-Plus.SDK\Youziku.Service-Plus.SDK.csproj", "{8A2013E1-634E-479C-9E49-629FB19065B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{37696FD1-BB80-4DB6-A5A1-ED15AA292C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V35Test.Sample", "V35Test.Sample\V35Test.Sample.csproj", "{FF4EEA8D-92C6-426E-B81B-1F8E860DD1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V45Test.Sample", "V45TestSample\V45Test.Sample.csproj", "{83F2D1F3-45AD-45B0-9D6D-9884DA18D04B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A383C3BA-9D02-4BF5-904C-1BA5C07A6225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A383C3BA-9D02-4BF5-904C-1BA5C07A6225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A383C3BA-9D02-4BF5-904C-1BA5C07A6225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A383C3BA-9D02-4BF5-904C-1BA5C07A6225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2013E1-634E-479C-9E49-629FB19065B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2013E1-634E-479C-9E49-629FB19065B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2013E1-634E-479C-9E49-629FB19065B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2013E1-634E-479C-9E49-629FB19065B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4EEA8D-92C6-426E-B81B-1F8E860DD1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4EEA8D-92C6-426E-B81B-1F8E860DD1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4EEA8D-92C6-426E-B81B-1F8E860DD1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4EEA8D-92C6-426E-B81B-1F8E860DD1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F2D1F3-45AD-45B0-9D6D-9884DA18D04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F2D1F3-45AD-45B0-9D6D-9884DA18D04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F2D1F3-45AD-45B0-9D6D-9884DA18D04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F2D1F3-45AD-45B0-9D6D-9884DA18D04B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73D561CD-D584-4AED-96FC-EDBC4589CAF4} = {1096790D-C20A-4C4C-A69F-3CA3F46C55CB}
+		{E571B377-1E79-41C0-83EA-6AC0E8DA339C} = {1096790D-C20A-4C4C-A69F-3CA3F46C55CB}
+		{A383C3BA-9D02-4BF5-904C-1BA5C07A6225} = {73D561CD-D584-4AED-96FC-EDBC4589CAF4}
+		{8A2013E1-634E-479C-9E49-629FB19065B0} = {E571B377-1E79-41C0-83EA-6AC0E8DA339C}
+		{FF4EEA8D-92C6-426E-B81B-1F8E860DD1AB} = {37696FD1-BB80-4DB6-A5A1-ED15AA292C27}
+		{83F2D1F3-45AD-45B0-9D6D-9884DA18D04B} = {37696FD1-BB80-4DB6-A5A1-ED15AA292C27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5A296AD-3A84-4608-937B-080F5F0108E4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://youzikutfs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = V35Test.Sample\\V35Test.Sample.csproj
+		SccProjectTopLevelParentUniqueName1 = Youziku.Service-Plus.SDK.sln
+		SccProjectName1 = V35Test.Sample
+		SccLocalPath1 = V35Test.Sample
+		SccProjectUniqueName2 = V45TestSample\\V45Test.Sample.csproj
+		SccProjectTopLevelParentUniqueName2 = Youziku.Service-Plus.SDK.sln
+		SccProjectName2 = V45TestSample
+		SccLocalPath2 = V45TestSample
+		SccProjectUniqueName3 = Youziku.Service-Plus.SDK.v35\\Youziku.Service-Plus.SDK.v35.csproj
+		SccProjectTopLevelParentUniqueName3 = Youziku.Service-Plus.SDK.sln
+		SccProjectName3 = Youziku.Service-Plus.SDK.v35
+		SccLocalPath3 = Youziku.Service-Plus.SDK.v35
+		SccProjectUniqueName4 = Youziku.Service-Plus.SDK\\Youziku.Service-Plus.SDK.csproj
+		SccProjectTopLevelParentUniqueName4 = Youziku.Service-Plus.SDK.sln
+		SccProjectName4 = Youziku.Service-Plus.SDK
+		SccLocalPath4 = Youziku.Service-Plus.SDK
+	EndGlobalSection
+EndGlobal

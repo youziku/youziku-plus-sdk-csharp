@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A2013E1-634E-479C-9E49-629FB19065B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Youziku.Service_Plus.SDK</RootNamespace>
+    <AssemblyName>Youziku.Service-Plus.SDK</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Client\YouzikuServiceClientPlusHostString.cs">
+      <Link>Client\YouzikuServiceClientPlusHostString.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Common\RequestBasePlusParam.cs">
+      <Link>Common\RequestBasePlusParam.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Common\ServicePlusMethod.cs">
+      <Link>Common\ServicePlusMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Core\TPlusHttpMethod.cs">
+      <Link>Core\TPlusHttpMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Params\RamSortUnicodeApiOption.cs">
+      <Link>Params\RamSortUnicodeApiOption.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Params\RamUnicodeFontApiParam.cs">
+      <Link>Params\RamUnicodeFontApiParam.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Params\RamUnicodeScopeFontApiParam.cs">
+      <Link>Params\RamUnicodeScopeFontApiParam.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Result\RamUnicodeItemResult.cs">
+      <Link>Result\RamUnicodeItemResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Youziku.Service-Plus.SDK.v35\Validate\PlusParamValidate.cs">
+      <Link>Validate\PlusParamValidate.cs</Link>
+    </Compile>
+    <Compile Include="Builder\PlusParamBuilder.cs" />
+    <Compile Include="Client\BaseServicePlusClient.cs" />
+    <Compile Include="Client\IYouzikuServicePlusClient.cs" />
+    <Compile Include="Client\YouzikuServicePlusClient.cs" />
+    <Compile Include="Config\YouzikuPlusConfig.cs" />
+    <Compile Include="Config\YouzikuPlusGlobal.cs" />
+    <Compile Include="Core\HttpRequestPlusClient.cs" />
+    <Compile Include="Core\TPlusHttpClient.cs" />
+    <Compile Include="Core\TPlusWebRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

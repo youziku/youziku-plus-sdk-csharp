@@ -1,0 +1,10 @@
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\bin\Release\V45Test.Sample.exe.config
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\bin\Release\V45Test.Sample.exe
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\bin\Release\V45Test.Sample.pdb
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\bin\Release\Youziku.Service-Plus.SDK.dll
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\bin\Release\Youziku.Service-Plus.SDK.pdb
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\obj\Release\V45Test.Sample.csprojAssemblyReference.cache
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\obj\Release\V45Test.Sample.csproj.CoreCompileInputs.cache
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\obj\Release\V45Test.Sample.csproj.CopyComplete
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\obj\Release\V45Test.Sample.exe
+F:\Projects\v4.5\Youziku.Projects\Youziku\Youziku.Service-Plus.SDK\V45TestSample\obj\Release\V45Test.Sample.pdb
